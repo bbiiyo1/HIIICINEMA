@@ -10,7 +10,7 @@
 </head>
 <body>
     <%@ include file="/WEB-INF/views/header/header.jsp" %>
-
+ 
     <div class="findId-page">
         <h2>아이디 찾기</h2>
         <form action="/doFindId" method="post">
