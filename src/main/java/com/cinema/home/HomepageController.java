@@ -16,7 +16,7 @@ public class HomepageController {
 
 	@Autowired
 	public logDAO ldao;
-
+ 
 	@GetMapping("/")
 	public String home(HttpServletRequest req, Model model) {
 		String linkstr = "";
